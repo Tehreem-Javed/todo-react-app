@@ -71,7 +71,7 @@ npm run dev
 
 ## Demo
 
-[Live Demo]()
+[Live Demo](https://tehreem-javed.github.io/todo-react-app/)
 
 ## Author
 
