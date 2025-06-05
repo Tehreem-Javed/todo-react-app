@@ -47,7 +47,7 @@ TO-DO-REACT/
 
 ```bash
 git clone https://github.com/Tehreem-Javed/ToDo-REACT.git
-cd TO-DO-REACT
+cd todo-react-app
 ```
 
 ### 2. Install dependencies
