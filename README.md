@@ -1,12 +1,78 @@
-# React + Vite
+# 📝 To-Do App (React + Redux + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive To-Do List application built with **React**, **Redux Toolkit**, and **Vite**. It supports task management features like adding, editing, deleting, and marking tasks as complete.
 
-Currently, two official plugins are available:
+## 📂 Project Structure
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+TO-DO-REACT/
+├── public/
+│ └── vite.svg
+├── src/
+│ ├── app/
+│ │ └── store.js # Redux store setup
+│ ├── assets/
+│ │ └── react.svg # Assets (e.g., logo)
+│ ├── components/
+│ │ └── TaskItem.jsx # Task item UI component
+│ ├── features/
+│ │ └── tasks/
+│ │ └── tasksSlice.js # Redux slice for tasks
+│ ├── App.css
+│ ├── App.jsx # Root component
+│ ├── index.css
+│ └── main.jsx # Entry point
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md 
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Features
+
+- ✅ Add new tasks
+- ✏️ Edit existing tasks
+- ❌ Delete tasks
+- ✔️ Mark tasks as completed
+- 🌓 Dark mode support with Tailwind CSS
+- ⚛️ Powered by Redux Toolkit for state management
+- ⚡ Built using Vite for fast development
+
+---
+
+## 🧑‍💻 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Tehreem-Javed/ToDo-REACT.git
+cd TO-DO-REACT
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Start the development server
+
+```bash
+npm run dev
+```
+
+## 🛠️ Tech Stack
+
+-React
+-Redux Toolkit
+-Vite
+-Tailwind CSS
+
+## Demo
+
+[Live Demo]()
+
+## Author
+
+[Tehreem Javed](https://github.com/Tehreem-Javed)
